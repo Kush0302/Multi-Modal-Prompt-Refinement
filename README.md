@@ -16,7 +16,11 @@ This project implements a system that accepts multi-modal inputs (text, images, 
 5. Output standardized JSON prompt
 
 ## Folder Structure
-input_samples/ #Raw input files
-output_prompts/ #Refined prompt outputs
-utils.py #Extraction & refinement logic
-main.py #Orchestration logic
+
+```text
+project-root/
+├── input_samples/      # Raw input files
+├── output_prompts/     # Refined prompt outputs
+├── utils.py            # Extraction & refinement logic
+└── main.py             # Orchestration logic
+
