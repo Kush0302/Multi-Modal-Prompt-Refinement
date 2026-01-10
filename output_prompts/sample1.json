@@ -1,0 +1,9 @@
+{
+    "intent": {
+        "summary": "Build a dashboard system"
+    },
+    "functional_requirements": [],
+    "expected_outputs": [
+        "Dashboard UI"
+    ]
+}

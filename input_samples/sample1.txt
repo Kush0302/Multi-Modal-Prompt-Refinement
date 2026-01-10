@@ -1,0 +1,4 @@
+Build a task management web application.
+Users should be able to create, update, and delete tasks.
+Tasks should have due dates and priorities.
+The system should generate a simple dashboard view.

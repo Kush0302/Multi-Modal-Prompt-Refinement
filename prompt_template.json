@@ -1,0 +1,15 @@
+{
+  "intent": {
+    "summary": "<Short description of the core product goal>"
+  },
+  "functional_requirements": [
+    "<List of key features or behaviors explicitly mentioned or inferred>"
+  ],
+  "technical_constraints": [
+    "<Optional: platform, performance, security constraints if mentioned>"
+  ],
+  "expected_outputs": [
+    "<UI screens, documents, APIs, or deliverables>"
+  ],
+  "confidence_level": "<high | medium | low>"
+}
