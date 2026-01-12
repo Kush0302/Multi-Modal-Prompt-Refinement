@@ -5,8 +5,8 @@ This project implements a system that accepts multi-modal inputs (text, images, 
 
 ## Supported Input Types
 - Plain text files (.txt)
-- Images (.jpg, .png) – simulated OCR
-- Documents (.pdf) – simulated parsing
+- Images (.jpg, .png)  
+- Documents (.pdf)
 
 ## System Workflow
 1. Detect input file type
@@ -19,8 +19,24 @@ This project implements a system that accepts multi-modal inputs (text, images, 
 
 ```text
 project-root/
-├── input_samples/      # Raw input files
-├── output_prompts/     # Refined prompt outputs
-├── utils.py            # Extraction & refinement logic
-└── main.py             # Orchestration logic
+├── input_samples/        # Raw input files
+├── output_prompts/       # Refined prompt outputs
+├── README.md             # Project overview
+├── explanation.md        # Detailed design and reasoning
+├── main.py               # Orchestration logic
+├── prompt_template.json  # Prompt schema
+├── requirements.txt      # Dependencies
+├── utils.py              # Extraction and refinement logic
+```
 
+How the Prototype Works
+
+This is a command-line prototype.
+
+Steps to Run
+1. Place input files inside input_samples/
+2. Run the program:
+```
+python main.py
+```
+3. Refined prompts are generated inside output_prompts/
