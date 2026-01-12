@@ -1,6 +1,6 @@
 import os
 
-def get_file_type(filename):
+def get_file_type(filename): #Determine input type based on file extension
     if filename.endswith(".txt"):
         return "text"
     elif filename.endswith((".jpg", ".png", ".jpeg")):
@@ -16,12 +16,11 @@ def read_text_file(filepath):
         return f.read()
 
 
-def simulate_image_extraction(filename):
-    #simulated OCR output
+def simulate_image_extraction(filename): #Simulates OCR text extraction from an image file
     return "Dashboard Login User Profile"
 
 
-def simulate_document_extraction(filename):
+def simulate_document_extraction(filename): #Simulates text extraction from a document file
     #simulated document parsing
     return "Project online platform features deliverables"
 

@@ -14,7 +14,7 @@ OUTPUT_DIR="output_prompts"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-def process_file(filename):
+def process_file(filename): #Processes a single input file and returns a refined prompt structure
     filepath = os.path.join(INPUT_DIR, filename)
     file_type = get_file_type(filename)
 
@@ -47,7 +47,7 @@ def process_file(filename):
         "expected_outputs": outputs
     }
 
-def main():
+def main(): #Iterates over input samples and generates refined prompt outputs
     for filename in os.listdir(INPUT_DIR):
         refined_prompt = process_file(filename)
 
